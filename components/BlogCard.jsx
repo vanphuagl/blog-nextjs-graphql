@@ -8,7 +8,7 @@ const BlogCard = ({ title, author, coverPhoto, datePublished, slug }) => {
     <div className={styles.card}>
       <Link href={"/posts/" + slug}>
         <div className={styles.imgContainer}>
-          <img src={coverPhoto?.url} alt={title} />
+          {/* <img src={coverPhoto?.url} alt={title} /> */}
         </div>
       </Link>
 
@@ -17,7 +17,7 @@ const BlogCard = ({ title, author, coverPhoto, datePublished, slug }) => {
 
         <div className={styles.details}>
           <div className={styles.author}>
-            <img src={author?.avatar?.url} alt={title} />
+            {/* <img src={author?.avatar?.url} alt={title} /> */}
             <h3>{author.name}</h3>
           </div>
 
